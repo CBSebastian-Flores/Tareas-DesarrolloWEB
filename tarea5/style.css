@@ -73,7 +73,8 @@ body {
 }
 
 .tecnologia {
-    flex-basis: 49%;
+    /* width: 725px; */
+    width: 49%;
     text-align: center;
     color: white;
     margin-bottom: 20px;
