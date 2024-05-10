@@ -1,0 +1,3 @@
+hola profesor, aqui le dejo la tarea.
+
+Mientras estaba buscando una descricion que agregar pense en agregar unas imagenes tambien y me tope con el <img> que me ayudo a crear las imagenes que podra ver en la web, los colores no los convine muy bien, puede verse un poco feo a la vista😅. Agregue los fonts del google fonts las letras se llaman: Lora(lo use para los <p></p>) y Cinzel Decorative(lo utilize para los <h1></h1> y <h2></h2>). Tambien en las imagenes como aparecian grande les agregue en el style.css un height para que el tamaño no sea tan grande o tan pequeño.

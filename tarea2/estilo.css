@@ -1,0 +1,92 @@
+*{ /* La regla se aplica a todos los elementos, gracias a "*" */
+    margin: 0; /* Define el margen exterior del elemento a 0 píxeles. Esto quita el espacio exterior que se crea por defecto*/
+    padding: 0; /* Define el padding (relleno) del elemento a 0 píxeles. Esto quita el espacio entre el contenido del elemento y su borde. */
+    box-sizing: border-box; /* el box-sizing debe calcular el ancho y alto total de un elemento para que tenga el width y height deseados.*/
+    --color1:#07B0F2; /* crea una variable con nombre color1, que contiene un color hexadecimal */
+    --color2:#05C7F2; /* crea una variable con nombre color2, que contiene un color hexadecimal */
+    --color3:#F2C029; /* crea una variable con nombre color3, que contiene un color hexadecimal */
+    --color4:#F2AE2E; /* crea una variable con nombre color4, que contiene un color hexadecimal */
+    --color5:#F2F2F2; /* crea una variable con nombre color5, que contiene un color hexadecimal */
+}
+
+main{ /* La regla se aplica a todos los elementos HTML con la etiqueta <main>. */
+    width: 800px; /* Define el ancho máximo del elemento <main> a 800 píxeles. Esto significa que el contenido dentro de <main> no será más ancho que 800 píxeles. */
+
+    margin: 20px auto; /* Define el margen exterior del elemento <main>. establece un margen superior e inferior de 20 píxeles y
+    auto centra el elemento <main> horizontalmente dentro de su contenedor. */
+}
+
+#cabecera{ /* La regla se aplica al elemento HTML con el id 'cabecera'. */
+
+    display: flex; /* Define el tipo de caja del elemento a 'flex'. Esto permite que los hijos del elemento se coloquen en una línea y se manipulen fácilmente. */
+
+    flex-direction: row; /* Define la dirección principal en la que se colocan los hijos del elemento. 'row' significa que los hijos se colocan de izquierda a derecha. */
+
+    justify-content: space-between; /* Controla cómo se distribuyen los hijos del elemento a lo largo del eje principal. 'space-between' significa que los hijos se distribuirán de manera uniforme en la línea */
+
+    align-items: center; /* Controla cómo se alinean los hijos del elemento a lo largo del eje transversal. 'center' significa que los hijos se centrarán en el medio del contenido. */
+
+    background-color: var(--color1); /* Define el color de fondo del elemento al valor de la variable CSS --color1. */
+
+    padding: 10px; /* Define el padding (relleno) del elemento a 10 píxeles. Esto aumenta en 10px el espacio entre el contenido del elemento y su borde. */
+
+    margin: 5px; /* Define el margen exterior del elemento a 5 píxeles. Esto crea un espacio alrededor del elemento que separa el elemento de otros elementos alrededor. */
+}
+
+#menu{ /* La regla se aplica al elemento HTML con el id 'menu'. */
+
+    display: flex; /* Define el tipo de caja del elemento a 'flex'. Esto permite que los hijos del elemento se coloquen en una línea y se manipulen fácilmente. */
+
+    flex-direction: row; /* Define la dirección principal en la que se colocan los hijos del elemento. 'row' significa que los hijos se colocan de izquierda a derecha. */
+
+    justify-content: right; /* Controla cómo se distribuyen los hijos del elemento a lo largo del eje principal. 'right' significa que los hijos se posicionaran a la derecha del contenido */
+
+    margin: 5px; /* Define el margen exterior del elemento a 5 píxeles. Esto crea un espacio alrededor del elemento que separa el elemento de otros elementos alrededor. */
+}
+
+#menu div{ /* La regla se aplica a los divs que estan dentro del elemento HTML con id 'menu'. */
+
+    padding: 10px; /* Define el padding (relleno) del elemento a 10 píxeles. Esto agrega 10px al espacio entre el contenido del elemento y su borde. */
+}
+
+#contenido{ /* La regla se aplica al elemento HTML con el id 'contenido'. */
+
+    display: flex; /* Define el tipo de caja del elemento a 'flex'. Esto permite que los hijos del elemento se coloquen en una línea y se manipulen fácilmente. */
+
+    flex-direction: row; /* Define la dirección principal en la que se colocan los hijos del elemento. 'row' significa que los hijos se colocan de izquierda a derecha. */
+
+    justify-content: space-between; /* Controla cómo se distribuyen los hijos del elemento a lo largo del eje principal. 'space-between' significa que los hijos se distribuirán de manera uniforme en la línea */
+
+    margin: 5px; /* Define el margen exterior del elemento a 5 píxeles. Esto crea un espacio alrededor del elemento que separa el elemento de otros elementos alrededor. */
+}
+
+.contenido{ /* La regla se aplica a los elementos HTML con la clase 'contenido'. */
+
+    margin: 5px; /* Define el margen exterior del elemento a 5 píxeles. Esto crea un espacio alrededor del elemento que separa el elemento de otros elementos alrededor. */
+
+    padding: 10px; /* Define el padding (relleno) del elemento a 10 píxeles. Esto aumenta en 10px el espacio entre el contenido del elemento y su borde. */
+
+    border: 2px solid var(--color3); /* Define el borde del elemento .contenido a 2 píxeles de ancho, un estilo sólido y un color de borde con el valor de la variable CSS --color3.*/
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Define la familia de la letra dentro del .contenido a 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; como son muchas por defecto elige la primera(si existe)*/ 
+}
+
+h3{ /* La regla se aplica a todos los elementos HTML con la etiqueta <h3>. */
+
+    text-align: center; /* Alinea las letras al centro del contenido*/
+
+    color: var(--color4); /* Define el color de las letras del elemento al valor de la variable CSS --color4. */
+    
+    background-color: var(--color5); /* Define el color de fondo del elemento al valor de la variable CSS --color5. */
+}
+
+#pie{ /* La regla se aplica al elemento HTML con el id 'pie'. */
+
+    display: flex; /* Define el tipo de caja del elemento a 'flex'. Esto permite que los hijos del elemento se coloquen en una línea y se manipulen fácilmente. */
+
+    flex-direction: row; /* Define la dirección principal en la que se colocan los hijos del elemento. 'row' significa que los hijos se colocan de izquierda a derecha. */
+
+    justify-content: center; /* Controla cómo se distribuyen los hijos del elemento a lo largo del eje principal. 'center' significa que los hijos se posicionaran al centro del contenido */
+
+    background-color: var(--color1); /* Define el color de fondo del elemento al valor de la variable CSS --color1. */
+}

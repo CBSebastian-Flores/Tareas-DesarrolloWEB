@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+hr{
+    border:1px dashed red;
+    width: 80%;
+    margin: 0px auto;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+main{
+    height: 400px;
+    margin: auto;
+}
+
+#cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#contenido{
+    background-image: url('https://img.freepik.com/foto-gratis/alfombra-algodon-blanco-texturas-superficie_74190-6383.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 20px 20px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 100px 0px 100px 42px;
+    border: 2px solid lightskyblue;
+    width: 20%;
+}
+
+#articulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+/* #image-contenido-info{
+    padding: 20px;
+    border: 4px solid cornflowerblue;
+} */
+
+#articulo1, #articulo2{
+    margin: 5px;
+    height: 50%;
+}
+
+#articulo1{
+    padding: 25px;
+    border: 3px solid cornflowerblue;
+}
+
+#articulo2{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 25px 40px;
+}
+
+#titulo-p-info{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(22, 47, 68);
+    padding: 4px;
+}
+
+#parrafo-p-info{
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    color:rgb(38, 128, 192);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#pie{
+    border: 2px solid black;
+    margin: 20px 20px;
+    padding: 15px;
+}
+
+#p-pie{
+    text-align: center;
+}
+
+#pie-links{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

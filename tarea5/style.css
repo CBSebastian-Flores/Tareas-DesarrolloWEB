@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(239, 232, 178);
+}
+
+#contenedor {
+    font-family: sans-serif;
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    margin: 32px auto;
+    border: 2px solid yellowgreen;
+}
+
+/* CABECERA */
+#cabecera {
+    background-color: whitesmoke;
+}
+
+#img-logo {
+    padding: 10px;
+}
+
+#img-logo img {
+    max-width: 20%;
+}
+
+/* MENU */
+#menu {
+    background-color: white;
+    text-align: right;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style-type: none;
+    font-size: 14px;
+    margin: 20px 50px 20px 0px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    margin: 8px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* CONTENIDO */
+
+#contenido {
+    border-top: 4px solid yellowgreen;
+    border-bottom: 4px solid yellowgreen;
+    padding: 10px 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tecnologia {
+    flex-basis: 49%;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.titulo-tecnologia {
+    color: #ffffff;
+}
+
+.contenido-tecnologia {
+    color: black;
+    text-align: left;
+}
+
+.contenido-tecnologia img {
+    float: left;
+    margin: 10px 25px;
+}
+
+.contenido-tecnologia p {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.35;
+    text-align: justify;
+
+    font-family: 'Roboto Condensed';
+}
+
+#html5 {
+    background-color: #E34F27;
+}
+
+#css3 {
+    background-color: #1572B6;
+}
+
+#js {
+    background-color: #DAB92D;
+}
+
+#php {
+    background-color: #787CB4;
+}
+
+/* PIE DE PAGINA */
+
+#pie-pagina {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#pie-pagina>img {
+    padding: 5px;
+}
+
+#pie-pagina-texto {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#pie-pagina-texto>p {
+    margin: 10px 6px;
+}
