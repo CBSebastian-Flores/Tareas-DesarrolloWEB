@@ -87,10 +87,10 @@ body {
 .contenido-tecnologia {
     color: black;
     text-align: left;
+    
 }
 
 .contenido-tecnologia img {
-    float: left;
     margin: 10px 25px;
 }
 

@@ -1,0 +1,356 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#contenedor {
+    margin: 0px auto;
+    font-family: "Montserrat";
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(255, 236, 196);
+    display: flex;
+    align-items: center;
+    padding: 20px 175px;
+}
+
+#logo {
+    width: 30%;
+    text-align: center;
+}
+
+#menu {
+    width: 70%;
+    font-weight: bold;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu ul li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 500ms ease;
+}
+
+#menu ul li a:hover {
+    color: darkred;
+}
+
+/* MAIN - INDEX.HTML*/
+
+#main-index {
+    padding: 20px 200px;
+    display: flex;
+}
+
+/* TABLAS */
+
+#tablas {
+    padding: 30px 30px 0px;
+    text-align: center;
+    width: 80%;
+}
+
+#tablas h2 {
+    padding: 10px 0px;
+    border-bottom: 2px solid darkred;
+}
+
+#tablas div {
+    padding: 15px;
+}
+
+.tabla {
+    width: 100%;
+}
+
+.tabla caption {
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.tabla td,
+.tabla th {
+    width: 10%;
+}
+
+/* TABLA LIMA-ICA-LIMA */
+
+#tarifario-lima-ica caption {
+    background-color: rgb(228, 215, 139);
+}
+
+#tarifario-lima-ica tr {
+    background-color: rgb(238, 228, 172);
+    font-size: 9pt;
+}
+
+#tarifario-lima-ica th,
+#tarifario-lima-ica td:first-child,
+.vacio-tarifario-lima-ica {
+    background-color: darkred;
+    color: white;
+}
+
+/* TABLA ICA-NAZCA-ICA */
+
+#tarifario-ica-nazca caption {
+    background-color: darkred;
+    color: white;
+}
+
+#tarifario-ica-nazca tr {
+    background-color: darkred;
+    color: white;
+    font-size: 9pt;
+}
+
+#tarifario-ica-nazca th,
+#tarifario-ica-nazca td:first-child,
+.vacio-tarifario-ica-nazca {
+    background-color: rgb(255, 119, 0);
+}
+
+/* FORMULARIO */
+
+#form-pasaje {
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 236, 196);
+    padding: 0px 15px;
+}
+
+#form-pasaje h2 {
+    padding: 22px 0px;
+    border-bottom: 2px solid darkred;
+}
+
+.formulario-datos {
+    text-align: left;
+    padding: 20px 0px 0px;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.formulario-datos select,
+.formulario-datos input {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.boton {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.boton input {
+    width: 50%;
+    height: 35px;
+    background-color: red;
+    color: white;
+    transition: all 500ms ease;
+    border-radius: 5px;
+}
+
+.boton input:hover {
+    background-color: rgb(194, 0, 0);
+}
+
+/* MAIN - CONTACTO.HTML*/
+
+#main-contacto {
+    padding: 20px 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#contacto,
+#form-mensaje,
+#ubicacion-mapa {
+    width: 32%;
+}
+
+/* CONTACTO */
+
+/* INFORMACION DE CONTACTO */
+
+#info-contacto div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 0px 15px;
+}
+
+#info-contacto h2 {
+    color: rgb(208, 0, 0);
+    padding: 0px 0px 10px;
+}
+
+#info-contacto h4 {
+    text-align: left;
+    width: 24%;
+}
+
+#info-contacto p {
+    text-align: left;
+    width: 76%;
+    line-height: 25px;
+}
+
+/* INFORMACION ATENCION */
+
+#info-atencion div {
+    display: flex;
+    flex-direction: column;
+}
+
+#info-atencion h2 {
+    color: rgb(208, 0, 0);
+    padding: 0px 0px 10px;
+}
+
+#info-atencion div,
+#info-atencion p {
+    padding: 5px 0px;
+}
+
+/* ENVIOS MENSAJE */
+
+#form-mensaje h2 {
+    color: rgb(208, 0, 0);
+    padding: 15px 0px;
+}
+
+#form-mensaje p {
+    padding: 6px 0px;
+}
+
+#form-mensaje div {
+    padding: 0px 0px 15px;
+}
+
+#form-mensaje input {
+    width: 100%;
+    padding: 15px 8px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+
+#form-mensaje textarea {
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 4px 12px;
+    font-family: "Montserrat";
+    font-size: 12pt;
+    line-height: 22px;
+}
+
+#form-mensaje div button {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+
+#form-mensaje div button:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+#form-mensaje div button:focus {
+    background-color: rgb(0, 0, 0);
+}
+
+/* MAPA */
+
+#mapa {
+    height: 600px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    background-color: darkred;
+    padding: 25px 150px;
+}
+
+#datos-pie {
+    text-align: left;
+    color: white;
+    padding: 20px 0px;
+    border-bottom: 4px solid rgb(139, 47, 47);
+}
+
+#logo-pie img {
+    filter: invert(1) sepia(1) saturate(0);
+}
+
+#datos-empresa {
+    padding: 25px 0px 40px;
+}
+
+#datos-empresa p {
+    padding: 2px 0px;
+}
+
+.informacion {
+    color: white;
+    text-align: left;
+    width: 15%;
+}
+
+.informacion h3 {
+    padding: 0px 0px 10px;
+    margin: 0px 0px;
+    border-bottom: 2px solid rgb(168, 55, 55);
+}
+
+.informacion nav {
+    padding: 25px 0px;
+}
+
+.informacion nav ul {
+    list-style: none;
+}
+
+.informacion nav li {
+    padding: 2px 0px;
+}
+
+.informacion nav li a {
+    text-decoration: none;
+    color: white;
+
+    transition: all 300ms ease;
+}
+
+.informacion nav li a:hover {
+    color: black;
+}
+
+.seleccionado {
+    border-bottom: 4px solid darkred;
+    color: darkred;
+}
